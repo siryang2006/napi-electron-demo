@@ -31,18 +31,18 @@ electron .
 
 # 如果只想要独立的napi的demo
 
-##(1)拷贝文件
+## (1)拷贝文件
 
 addon.cc和binding.gyp到test的文件夹
 
-##(2)进入test文件夹
+## (2)进入test文件夹
 
 cd test
 
-##(3)安装依赖
+## (3)安装依赖
 
 npm i node-addon-api
 
-##(4)编译插件
+## (4)编译插件
 
 node-gyp rebuild
