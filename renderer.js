@@ -7,7 +7,7 @@ if(os.platform() === 'darwin')
 }
 else if(os.platform() === 'win32')
 {
-    nodepath = './CustomAddonWin.node';
+    nodepath = './build/Release/CustomAddon.node';
 }
 
 const addon = require(nodepath)
