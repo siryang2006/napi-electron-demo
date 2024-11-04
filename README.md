@@ -29,7 +29,7 @@ node-gyp rebuild --arch=x64
 electron .
 
 
-# 如果只想要napi的demo
+# 如果只想要独立的napi的demo
 
 ##(1)拷贝文件
 
